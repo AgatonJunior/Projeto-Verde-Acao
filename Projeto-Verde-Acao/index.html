@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Ação Verde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="box-header">
+            <h1>Verde Ação</h1>
+            <p>
+                Ser voluntário na Verde Ação é plantar esperança e colher transformação. Juntos, cuidamos do planeta e inspiramos mudanças reais!
+            </p>
+            <button>
+                Quero ser voluntário
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="cards">
+
+          <article class="card">
+            <img src="./assets/Rectangle 3.jpg" alt="foto card plantio de mudas">
+            <h3>Plantio de Mudas</h3>
+            <p>
+                Cada muda plantada ajuda a restaurar o meio ambiente
+            </p>
+            <button>
+                Ver mais
+            </button>
+          </article>
+
+          <article class="card">
+            <img src="./assets/download 2.jpg" alt=" foto card educação ambiental">
+            <h3>Educação Ambiental</h3>
+            <p>
+                Promove oficinas e rodas de conversas
+            </p>
+            <button>
+                Ver mais
+            </button>
+          </article>
+
+          <article class="card">
+            <img src="./assets/artigo-5 1.jpg" alt="foto card cuidados">
+            <h3>Cuidados</h3>
+            <p>
+                Ajude a manter areas preservadas
+            </p>
+            <button>
+                Ver mais
+            </button>
+          </article>
+
+          <article class="card">
+            <img src="./assets/florestas 1.jpg" alt="foto card Mapeamento">
+            <h3>Mapeamento</h3>
+            <p>
+                Indentifique areas que precisam de mapeamento
+            </p>
+            <button>
+                Ver mais
+            </button>
+          </article>
+        </section>
+
+        <section class="forms">
+            <form action="*" method="post">
+                <h3>
+                    Cadastre-se como voluntário
+                </h3>
+                <p>
+                    Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade
+                </p>
+                <input type="text" name="nome"
+                        placeholder="Nome"
+                        pattern="^[A-Za-zÀ-ÿ\s]{3,50}$"
+                        title="O nome deve conter apenas letras e espaço (mínimo 3 caracteres)"
+                        required />
+                <input type="email" name="email"
+                        placeholder="E-mail"
+                        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                        title="Digite um email válido como exemplo@email.com"
+                        required />
+                <input type="text" name="cidade"
+                        placeholder="Cidade"
+                        pattern="^[A-Za-zÀ-ÿ\s]{3,50}$"
+                        title="Digite sua cidade"
+                        required />
+                <select name="atividade" required>
+                    <option value="" disabled selected>Selecione atividade</option>
+                    <option value="plantio">Plantio de Mudas</option>
+                    <option value="educacao">Educação Ambiental</option>
+                    <option value="cuidados">Cuidados</option>
+                    <option value="mapeamento">Mapeamento</option>   
+                </select>     
+                <button type="submit">
+                    Cadastrar
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        © Todos os direitos reservados
+    </footer>
+</body>
+</html>

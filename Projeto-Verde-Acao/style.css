@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url("./assets/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  text-align: center;
+  background-color: white;
+}
+header h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+header p {
+  font-size: 2rem;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+header button {
+  background-color: #66BB6A;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+header .box-header {
+  background: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  padding: 200px 40px 40px 40px;
+}
+
+.cards {
+  background-color: #f1f8c9;
+  text-align: center;
+  padding: 50px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.cards .card {
+  background-color: white;
+  width: 220px;
+  height: 328px;
+  margin: 15px;
+  padding-bottom: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.cards .card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.cards .card button {
+  background-color: #66BB6A;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.forms {
+  margin-top: 40px;
+  padding: 50px 20px;
+  height: 80vh;
+  text-align: center;
+}
+.forms input {
+  color: rgba(42, 42, 42, 0.3843137255);
+  display: block;
+  margin: 20px auto;
+  padding: 20px 100px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 425px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.forms select {
+  color: rgba(42, 42, 42, 0.4862745098);
+  display: block;
+  margin: 20px auto;
+  padding: 20px 100px;
+  width: 425px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.forms button {
+  background-color: #66BB6A;
+  color: white;
+  width: 425px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #66BB6A;
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 60px;
+}/*# sourceMappingURL=style.css.map */
